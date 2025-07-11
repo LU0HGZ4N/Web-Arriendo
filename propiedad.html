@@ -1,98 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Apartamento 101 - Propiedades Mi Padre</title>
-<link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arrendamiento de casas</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-<header>
-  <h1>Apartamento 1B</h1>
-  <p class="property-location">Calle 30 de Agosto entre Antonio José de Sucre y Cristóbal Colón</p>
-</header>
+  <header>
+    <h1 id="property-title">Cargando...</h1>
+    <button id="darkModeToggle" class="dark-mode-toggle">🌙 Modo Oscuro</button>
+    <p class="property-location" id="property-location"></p>
+  </header>
 
-<main class="container">
+  <main class="container">
+    <a href="index.html" class="back-link">&larr; Volver al listado</a>
 
-  <a href="index.html" class="back-link">&larr; Volver al listado</a>
+    <!-- Imagen principal -->
+    <img src="" alt="Foto principal" class="main-photo" id="mainPhoto" />
 
-  <!-- Imagen principal -->
-  <img src="IMG/101.webp" alt="Apartamento 101" class="main-photo" id="mainPhoto" />
+    <!-- Galería -->
+    <div class="gallery" id="gallery"></div>
 
-  <!-- Galería -->
-  <div class="gallery" id="gallery">
-    <img src="IMG/101.webp" alt="Principal" class="active" />
-    <img src="IMG/101kitchen.jpg" alt="Cocina" />
-    <img src="IMG/101dorm.jpg" alt="Dormitorio" />
-    <img src="IMG/101toilet.jpg" alt="Baño" />
-    <img src="IMG/101backyard.jpg" alt="Patio" />
-    <img src="https://via.placeholder.com/200x130?text=Apto+101+Plano" alt="Plano" />
-  </div>
+    <!-- Descripción -->
+    <p class="description" id="description"></p>
 
-  <!-- Descripción -->
-  <p class="description">
-    Apartamento con cocina equipada y patio compartido. Ideal para una persona o pareja.
-  </p>
+    <!-- Info adicional -->
+    <h2>Información Adicional</h2>
+    <ul class="info-list" id="additional-info"></ul>
 
-  <!-- Info adicional -->
-  <ul class="info-list">
-    <li><strong>Habitaciones:</strong> 1</li>
-    <li><strong>Baños:</strong> 1</li>
-    <li><strong>Área:</strong> 60 m²</li> 
-    <li><strong>Precio:</strong> $100  / mes</li>
-    <li><strong>Estado:</strong> Ocupado</li>
-  </ul>
+    <!-- Video tour -->
+    <h2>Video tour</h2>
+    <iframe width="100%" height="315" id="video-tour" src="" title="Video Tour" allowfullscreen></iframe>
 
-  <!-- Video tour (placeholder) -->
-  <h2>Video tour</h2>
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Video Tour" allowfullscreen></iframe>
+    <!-- Mapa -->
+    <h2>Ubicación</h2>
+    <iframe class="map" id="map" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-  <!-- Mapa Google Maps embebido -->
-  <h2>Ubicación</h2>
-  <iframe
-    class="map"
-    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1085.7660214679047!2d-79.96157916177171!3d-3.445354964500245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1751902214652!5m2!1ses!2sec"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-  ></iframe>
+    <!-- Contacto -->
+    <section class="contact-info">
+      <h2>Contactar sobre este departamento</h2>
+      <p><strong>📞 Teléfono:</strong> <a href="tel:+593984341002" class="phone-link">+593 984341002</a></p>
+      <p><strong>📱 WhatsApp:</strong>
+        <a href="https://wa.me/593984341002" target="_blank" class="whatsapp-link">
+          Enviar mensaje
+        </a>
+      </p>
+    </section>
+  </main>
 
-  <!-- Formulario contacto -->
- <section class="contact-info">
-  <h2>Contactar sobre este departamento</h2>
-  <p><strong>📞 Teléfono:</strong> <a href="tel:+593984341002" class="phone-link">+593 984341002</a></p>
-  <p><strong>📱 WhatsApp:</strong> 
-    <a href="https://wa.me/593984341002" target="_blank" class="whatsapp-link">
-      Enviar mensaje
-    </a>
-  </p>
-</section>
+  <footer>
+    &copy; 2025 Arrendamiento de casas. Todos los derechos reservados.
+  </footer>
 
-
-</main>
-
-<footer>
-  &copy; 2025 Propiedades Mi Padre. Todos los derechos reservados.
-</footer>
-
-<script>
-  // Galería - cambiar foto principal al hacer click
-  const mainPhoto = document.getElementById('mainPhoto');
-  const galleryImages = document.querySelectorAll('#gallery img');
-
-  galleryImages.forEach(img => {
-    img.addEventListener('click', () => {
-      // Cambiar foto principal
-      mainPhoto.src = img.src;
-      mainPhoto.alt = img.alt;
-
-      // Marcar imagen activa
-      galleryImages.forEach(i => i.classList.remove('active'));
-      img.classList.add('active');
-    });
-  });
-</script>
+  <script src="scripts.js"></script>
 
 </body>
+
 </html>

@@ -1,191 +1,202 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Propiedades Mi Padre</title>
-<link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arrendamiento de casas</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-<header>
-  <h1>Propiedades Mi Padre</h1>
-  <p>Departamentos y Locales Comerciales</p>
-</header>
+  <header>
+    <h1>Arrendamiento de casas</h1>
+    <button id="darkModeToggle" class="dark-mode-toggle">🌙 Modo Oscuro</button>
+    <h3>Apartamentos y Locales Comerciales</h3>
+  </header>
 
-<nav>
-  <a href="#terreno1">30 de Agosto</a>
-  <a href="#terreno2">Antonio Jose de Sucre</a>
-</nav>
+  <nav>
+    <a href="#terreno1">30 de Agosto</a>
+    <a href="#terreno2">Voltaire Paladines</a>
+  </nav>
 
-<main>
+  <main>
 
-  <section id="terreno1" class="property-section">
-    <h2>Calle 30 de Agosto entre Antonio José de Sucre y Cristóbal Colón</h2>
-    <div class="property-list">
-      <!-- Departamento 1 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Apto+101" alt="Apartamento 101" />
-        <div class="property-info">
-          <h3>Apartamento 1B</h3>
-          <p>1 habitación · 1 baño · 60 m²</p>
-          <p class="price">$100 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Departamento 2 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Apto+102" alt="Apartamento 102" />
-        <div class="property-info">
-          <h3>Apartamento 2A</h3>
-          <p>2 habitaciones · 1 baños · 85 m²</p>
-          <p class="price">$150 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-102.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Departamento 3 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Apto+103" alt="Apartamento 103" />
-        <div class="property-info">
-          <h3>Apartamento 2B</h3>
-          <p>2 habitaciones· 1 baño · 45 m²</p>
-          <p class="price">$150 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-103.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Local 1 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Local+1" alt="Local Comercial 1" />
-        <div class="property-info">
-          <h3>Local Comercial 1</h3>
-          <p>45 m² · Baño propio</p>
-          <p class="price">$400 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-local-101.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Local 2 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Local+2" alt="Local Comercial 2" />
-        <div class="property-info">
-          <h3>Local Comercial 2</h3>
-          <p>45 m² · Baño propio</p>
-          <p class="price">$400 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-local-102.html" class="btn">Ver más</a>
-        </div>
-      </article>
-    </div>
-  </section>
+    <section id="terreno1" class="property-section">
+      <h2>Calle 30 de Agosto entre Antonio José de Sucre y Cristóbal Colón</h2>
 
-  <section id="terreno2" class="property-section">
-    <h2>Calle Voltaire Paladines y Antonio José de Sucre</h2>
+      <h3>Apartamentos</h3>
+      <div class="property-list">
+        <!-- Departamento T11B -->
+        <article class="property-card">
+          <img src="IMG/T1.jpg" alt="Apartamento 101" />
+          <div class="property-info">
+            <h3>Apartamento 1B</h3>
+            <p>1 habitación · 1 baño · 60 m²</p>
+            <p class="price" id="price-T11B">Cargando precio...</p>
+            <p class="status" id="status-T11B">Cargando estado...</p>
+            <a href="propiedad.html?id=T11B" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Departamento T12A -->
+        <article class="property-card">
+          <img src="IMG/T1.jpg" alt="Apartamento 102" />
+          <div class="property-info">
+            <h3>Apartamento 2A</h3>
+            <p>2 habitaciones · 1 baños · 85 m²</p>
+            <p class="price" id="price-T12A">Cargando precio...</p>
+            <p class="status" id="status-T12A">Cargando estado...</p>
+            <a href="propiedad.html?id=T12A" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Departamento T12B -->
+        <article class="property-card">
+          <img src="IMG/T1.jpg" alt="Apartamento 103" />
+          <div class="property-info">
+            <h3>Apartamento 2B</h3>
+            <p>2 habitaciones· 1 baño · 45 m²</p>
+            <p class="price" id="price-T12B">Cargando precio...</p>
+            <p class="status" id="status-T12B">Cargando estado...</p>
+            <a href="propiedad.html?id=T12B" class="btn">Ver más</a>
+          </div>
+        </article>
+      </div>
+      <h3>Locales Comerciales</h3>
+      <div class="property-list">
+        <!-- Local T1L1 -->
+        <article class="property-card">
+          <img src="IMG/T1L.jpg" alt="Local Comercial 1" />
+          <div class="property-info">
+            <h3>Local Comercial 1</h3>
+            <p>45 m² · Baño propio</p>
+            <p class="price" id="price-T1L1">Cargando precio...</p>
+            <p class="status" id="status-T1L1">Cargando estado...</p>
+            <a href="propiedad.html?id=T1L1" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Local T1L2 -->
+        <article class="property-card">
+          <img src="IMG/T1L.jpg" alt="Local Comercial 2" />
+          <div class="property-info">
+            <h3>Local Comercial 2</h3>
+            <p>45 m² · Baño propio</p>
+            <p class="price" id="price-T1L2">Cargando precio...</p>
+            <p class="status" id="status-T1L2">Cargando estado...</p>
+            <a href="propiedad.html?id=T1L2" class="btn">Ver más</a>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <h3>Departamentos</h3>
-    <div class="property-list">
-      <!-- Departamento 201 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Apto+201" alt="Apartamento 201" />
-        <div class="property-info">
-          <h3>Apartamento 1A</h3>
-          <p>2 habitaciones · 1 baño · 90 m²</p>
-          <p class="price">$550 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-201.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Departamento 202 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Apto+202" alt="Apartamento 202" />
-        <div class="property-info">
-          <h3>Apartamento 1B</h3>
-          <p>2 habitaciones · 1 baño · 65 m²</p>
-          <p class="price">$400 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-202.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Departamento 203 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Apto+203" alt="Apartamento 203" />
-        <div class="property-info">
-          <h3>Apartamento 1C</h3>
-          <p>2 habitación · 1 baño · 50 m²</p>
-          <p class="price">$320 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-203.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Departamento 204 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Apto+204" alt="Apartamento 204" />
-        <div class="property-info">
-          <h3>Apartamento 1D</h3>
-          <p>1 habitación · 1 baño · 75 m²</p>
-          <p class="price">$480 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-204.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Departamento 205 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Apto+205" alt="Apartamento 205" />
-        <div class="property-info">
-          <h3>Apartamento 1E</h3>
-          <p>1 habitación · 1 baño · 75 m²</p>
-          <p class="price">$480 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-205.html" class="btn">Ver más</a>
-        </div>
-      </article>
-    </div>
+    <section id="terreno2" class="property-section">
+      <h2>Calle Voltaire Paladines y Antonio José de Sucre</h2>
 
-    <h3>Locales Comerciales</h3>
-    <div class="property-list">
-      <!-- Local 1 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Local+1" alt="Local Comercial 1" />
-        <div class="property-info">
-          <h3>Local Comercial 1</h3>
-          <p>45 m² · Baño propio</p>
-          <p class="price">$400 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-local-201.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Local 2 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Local+2" alt="Local Comercial 2" />
-        <div class="property-info">
-          <h3>Local Comercial 2</h3>
-          <p>30 m² · Baño propio</p>
-          <p class="price">$300 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-local-202.html" class="btn">Ver más</a>
-        </div>
-      </article>
-      <!-- Local 3 -->
-      <article class="property-card">
-        <img src="https://via.placeholder.com/400x250?text=Local+3" alt="Local Comercial 3" />
-        <div class="property-info">
-          <h3>Local Comercial 3</h3>
-          <p>50 m² · Baño propio</p>
-          <p class="price">$420 / mes</p>
-          <p class="status unavailable">Ocupado</p>
-          <a href="propiedad-local-203.html" class="btn">Ver más</a>
-        </div>
-      </article>
-    </div>
-  </section>
+      <h3>Apartamentos</h3>
+      <div class="property-list">
+        <!-- Departamento T21A -->
+        <article class="property-card">
+          <img src="IMG/T2.jpg" alt="Apartamento 201" />
+          <div class="property-info">
+            <h3>Apartamento 1A</h3>
+            <p>2 habitaciones · 1 baño · 90 m²</p>
+            <p class="price" id="price-T21A">Cargando precio...</p>
+            <p class="status" id="status-T21A">Cargando estado...</p>
+            <a href="propiedad.html?id=T21A" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Departamento T21B -->
+        <article class="property-card">
+          <img src="IMG/T2.jpg" alt="Apartamento 202" />
+          <div class="property-info">
+            <h3>Apartamento 1B</h3>
+            <p>2 habitaciones · 1 baño · 65 m²</p>
+            <p class="price" id="price-T21B">Cargando precio...</p>
+            <p class="status" id="status-T21B">Cargando estado...</p>
+            <a href="propiedad.html?id=T21B" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Departamento T21C -->
+        <article class="property-card">
+          <img src="IMG/T2.jpg" alt="Apartamento 203" />
+          <div class="property-info">
+            <h3>Apartamento 1C</h3>
+            <p>2 habitación · 1 baño · 50 m²</p>
+            <p class="price" id="price-T21C">Cargando precio...</p>
+            <p class="status" id="status-T21C">Cargando estado...</p>
+            <a href="propiedad.html?id=T21C" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Departamento T21D -->
+        <article class="property-card">
+          <img src="IMG/T2.jpg" alt="Apartamento 204" />
+          <div class="property-info">
+            <h3>Apartamento 1D</h3>
+            <p>1 habitación · 1 baño · 75 m²</p>
+            <p class="price" id="price-T21D">Cargando precio...</p>
+            <p class="status" id="status-T21D">Cargando estado...</p>
+            <a href="propiedad.html?id=T21D" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Departamento T21E -->
+        <article class="property-card">
+          <img src="IMG/T2.jpg" alt="Apartamento 205" />
+          <div class="property-info">
+            <h3>Apartamento 1E</h3>
+            <p>1 habitación · 1 baño · 75 m²</p>
+            <p class="price" id="price-T21E">Cargando precio...</p>
+            <p class="status" id="status-T21E">Cargando estado...</p>
+            <a href="propiedad.html?id=T21E" class="btn">Ver más</a>
+          </div>
+        </article>
+      </div>
 
-</main>
+      <h3>Locales Comerciales</h3>
+      <div class="property-list">
+        <!-- Local T2L1 -->
+        <article class="property-card">
+          <img src="IMG/T2.jpg" alt="Local Comercial 1" />
+          <div class="property-info">
+            <h3>Local Comercial 1</h3>
+            <p>45 m² · Baño propio</p>
+            <p class="price" id="price-T2L1">Cargando precio...</p>
+            <p class="status" id="status-T2L1">Cargando estado...</p>
+            <a href="propiedad.html?id=T2L1" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Local T2L2 -->
+        <article class="property-card">
+          <img src="IMG/T2.jpg" alt="Local Comercial 2" />
+          <div class="property-info">
+            <h3>Local Comercial 2</h3>
+            <p>30 m² · Baño propio</p>
+            <p class="price" id="price-T2L2">Cargando precio...</p>
+            <p class="status" id="status-T2L2">Cargando estado...</p>
+            <a href="propiedad.html?id=T2L2" class="btn">Ver más</a>
+          </div>
+        </article>
+        <!-- Local T2L3 -->
+        <article class="property-card">
+          <img src="IMG/T2.jpg" alt="Local Comercial 3" />
+          <div class="property-info">
+            <h3>Local Comercial 3</h3>
+            <p>50 m² · Baño propio</p>
+            <p class="price" id="price-T2L3">Cargando precio...</p>
+            <p class="status" id="status-T2L3">Cargando estado...</p>
+            <a href="propiedad.html?id=T2L3" class="btn">Ver más</a>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<footer>
-  &copy; 2025 Propiedades Mi Padre. Todos los derechos reservados.
-</footer>
+  </main>
+
+  <footer>
+    &copy; 2025 Arrendamiento de casas. Todos los derechos reservados.
+  </footer>
+
+  <script src="scripts.js"></script>
 
 </body>
+
 </html>

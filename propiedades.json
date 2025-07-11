@@ -1,0 +1,252 @@
+{
+  "T11B": {
+    "nombre": "Apartamento 1B",
+    "ubicacion": "Calle 30 de Agosto entre Antonio José de Sucre y Cristóbal Colón",
+    "descripcion": "Se alquila acogedor apartamento de 1 habitación, perfecto para quienes buscan tranquilidad y funcionalidad. El apartamento cuenta con una distribución práctica: una habitación cerrada, un baño completo privado, y una zona abierta que integra sala, comedor y cocina. Se entrega vacío, listo para decorar y amoblar a tu gusto. Además, tendrás acceso a un patio compartido, ideal para tender ropa o tomar el aire.",
+    "infoadicional": {
+      "Habitaciones": "1",
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Primer piso alto",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+      "IMG/T11B_living2.jpg",
+      "IMG/T11B_living.jpg",
+      "IMG/T11B_kitchen.jpg",
+      "IMG/T11B_bathroom.jpg",
+      "IMG/T11B_room.jpg",
+      "IMG/T1_backyard.jpg"
+    ],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1085.7660214679047!2d-79.96157916177171!3d-3.445354964500245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1751902214652!5m2!1ses!2sec"
+  },
+
+  "T12A": {
+    "nombre": "Apartamento 2A",
+    "ubicacion": "Calle 30 de Agosto entre Antonio José de Sucre y Cristóbal Colón",
+    "descripcion": "Apartamento en segundo piso, con una distribución cómoda y luminosa. Dispone de 2 habitaciones, un baño completo, y una sala-comedor en un solo ambiente ideal para el día a día. La cocina se encuentra en un espacio independiente, lo que permite mayor organización y comodidad al cocinar. Además, el edificio cuenta con un patio comunal disponible para todos los inquilinos, perfecto para tender ropa o tomar el aire.",
+    "infoadicional": {
+      "Habitaciones": 2,
+      "Baños": 1,
+      "Área": "60 m²",
+      "Piso": "Segundo piso alto",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+      "IMG/T12A_living.jpg",
+      "IMG/T12A_dining.jpg",
+      "IMG/T12A_kitchen.jpg",
+      "IMG/T12A_bathroom.jpg",
+      "IMG/T12A_room1.jpg",
+      "IMG/T1_backyard.jpg"
+    ],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1085.7660214679047!2d-79.96157916177171!3d-3.445354964500245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1751902214652!5m2!1ses!2sec"
+  },
+
+  "T12B": {
+    "nombre": "Apartamento 2B",
+    "ubicacion": "Calle 30 de Agosto entre Antonio José de Sucre y Cristóbal Colón",
+    "descripcion": "Apartamento en segundo piso con vista hacia el patio comunal, ideal para quienes prefieren un ambiente tranquilo y fresco. Cuenta con 2 habitaciones, un baño completo, sala-comedor integrados y una cocina independiente que ofrece mayor comodidad. Disfruta de la tranquilidad que brinda la vista al patio compartido, un espacio para tender ropa o relajarte al aire libre.",
+    "infoadicional": {
+      "Habitaciones": 2,
+      "Baños": 1,
+      "Área": "60 m²",
+      "Piso": "Segundo piso alto",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+      "IMG/T12B_living.jpg",
+      "IMG/T12B_kitchen.jpg",
+      "IMG/T12B_bathroom.jpg",
+      "IMG/T12B_room1.jpg",
+      "IMG/T1_backyard.jpg"
+    ],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1085.7660214679047!2d-79.96157916177171!3d-3.445354964500245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1751902214652!5m2!1ses!2sec"
+  },
+
+  "T1L1": {
+    "nombre": "Local 1",
+    "ubicacion": "Calle 30 de Agosto entre Antonio José de Sucre y Cristóbal Colón",
+    "descripcion": "Espacio comercial disponible, perfecto para pequeños negocios o actividades profesionales. El local cuenta con un baño interior, lo que brinda mayor comodidad tanto para clientes como para quien lo utiliza. Su distribución abierta permite adecuarlo según tus necesidades.",
+    "infoadicional": {
+      "Baños": 1,
+      "Área": "60 m²",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1085.7660214679047!2d-79.96157916177171!3d-3.445354964500245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1751902214652!5m2!1ses!2sec"
+  },
+
+  "T1L2": {
+    "nombre": "Local 2",
+    "ubicacion": "Calle 30 de Agosto entre Antonio José de Sucre y Cristóbal Colón",
+    "descripcion": "Amplio local con baño incluido, ideal para emprendedores que buscan un espacio versátil y cómodo. Su tamaño permite mayor libertad para distribuir mobiliario o productos según el tipo de negocio. Con acceso independiente y buena iluminación.",
+    "infoadicional": {
+      "Baños": 1,
+      "Área": "60 m²",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1085.7660214679047!2d-79.96157916177171!3d-3.445354964500245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1751902214652!5m2!1ses!2sec"
+  },
+
+  "T21A": {
+    "nombre": "Apartamento 1A",
+    "ubicacion": "Calle Voltaire Paladines y Antonio José de Sucre",
+    "descripcion": "Acogedor apartamento de 2 habitaciones, con una distribución práctica y funcional. Dispone de un baño completo, cocina independiente y una zona social que integra sala y comedor en un solo ambiente. Incluye un pequeño tendedero cerrado, perfecto para mantener la ropa protegida mientras se seca y aprovechar mejor el espacio del hogar.",
+    "infoadicional": {
+      "Habitaciones": "2",
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Primer piso alto",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.8980864806753!2d-79.9616058825554!3d-3.442836489184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1752199786058!5m2!1ses!2sec"
+  },
+
+  "T21B": {
+    "nombre": "Apartamento 1B",
+    "ubicacion": "Calle Voltaire Paladines y Antonio José de Sucre",
+    "descripcion": "Apartamento esquinero de 2 habitaciones, con buena ventilación e iluminación natural gracias a su ubicación. Ofrece una distribución cómoda con cocina independiente, sala y comedor integrados en un solo ambiente, y un baño completo. Incluye un pequeño tendedero cerrado, ideal para el secado de ropa de forma práctica y discreta.",
+    "infoadicional": {
+      "Habitaciones": "2",
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Primer piso alto",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.8980864806753!2d-79.9616058825554!3d-3.442836489184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1752199786058!5m2!1ses!2sec"
+  },
+
+  "T21C": {
+    "nombre": "Apartamento 1C",
+    "ubicacion": "Calle Voltaire Paladines y Antonio José de Sucre",
+    "descripcion": "Funcional apartamento de 2 habitaciones, con cocina independiente y un baño completo. La sala y el comedor comparten un espacio abierto y acogedor. Además, el edificio ofrece una sala de lavado común con un pequeño patio interior, perfecto para secar ropa y realizar labores domésticas con comodidad.",
+    "infoadicional": {
+      "Habitaciones": "2",
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Primer piso alto",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+      "IMG/T2_backyard.jpg"
+    ],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.8980864806753!2d-79.9616058825554!3d-3.442836489184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1752199786058!5m2!1ses!2sec"
+  },
+
+  "T21D": {
+    "nombre": "Apartamento 1D",
+    "ubicacion": "Calle Voltaire Paladines y Antonio José de Sucre",
+    "descripcion": "Acogedor apartamento de 1 habitación, ideal para quienes buscan un espacio práctico y cómodo. Cuenta con cocina independiente, sala-comedor integrada y un baño completo. Además, los residentes pueden hacer uso de una sala de lavado compartida con un pequeño patio interior, perfecto para secar ropa y realizar tareas domésticas.",
+    "infoadicional": {
+      "Habitaciones": "1",
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Primer piso alto",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+      "IMG/T21D_front.jpg",
+      "IMG/T21D_living.jpg",
+      "IMG/T21D_living2.jpg",
+      "IMG/T21D_kitchen.jpg",
+      "IMG/T21D_corridor.jpg",
+      "IMG/T21D_bathroom.jpg"
+    ],
+    "video": "IMG/T21D_video.mp4",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.8980864806753!2d-79.9616058825554!3d-3.442836489184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1752199786058!5m2!1ses!2sec"
+  },
+
+  "T21E": {
+    "nombre": "Apartamento 1E",
+    "ubicacion": "Calle Voltaire Paladines y Antonio José de Sucre",
+    "descripcion": "Apartamento adaptado a partir de un local, con una distribución sencilla y funcional. Dispone de una habitación, cocina, sala-comedor en un solo ambiente y baño completo. Una opción cómoda para quienes buscan un espacio práctico y bien aprovechado.",
+    "infoadicional": {
+      "Habitaciones": "1",
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Planta baja",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+
+    ],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.8980864806753!2d-79.9616058825554!3d-3.442836489184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1752199786058!5m2!1ses!2sec"
+  },
+
+  "T2L1": {
+    "nombre": "Local 1",
+    "ubicacion": "Calle Voltaire Paladines y Antonio José de Sucre",
+    "descripcion": "Espacio comercial disponible, con ambiente abierto y baño incluido. Su tamaño y distribución lo hacen ideal para emprender un negocio, establecer una oficina o desarrollar actividades profesionales en un entorno cómodo y accesible.",
+    "infoadicional": {
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Planta Baja",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+
+    ],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.8980864806753!2d-79.9616058825554!3d-3.442836489184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1752199786058!5m2!1ses!2sec"
+  },
+
+  "T2L2": {
+    "nombre": "Local 2",
+    "ubicacion": "Calle Voltaire Paladines y Antonio José de Sucre",
+    "descripcion": "Local sencillo y funcional, ideal para actividades comerciales o profesionales. Cuenta con un solo espacio amplio y un baño privado, lo que permite adaptarlo fácilmente a distintos usos. Una opción práctica para quienes buscan comenzar o establecer su negocio con comodidad.",
+    "infoadicional": {
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Planta Baja",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+
+    ],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.8980864806753!2d-79.9616058825554!3d-3.442836489184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1752199786058!5m2!1ses!2sec"
+  },
+
+  "T2L3": {
+    "nombre": "Local 3",
+    "ubicacion": "Calle Voltaire Paladines y Antonio José de Sucre",
+    "descripcion": "Espacio comercial disponible con baño incluido, perfecto para emprendedores o profesionales independientes. Su distribución abierta permite acondicionarlo según las necesidades del negocio, manteniendo un entorno cómodo y versátil.",
+    "infoadicional": {
+      "Baños": "1",
+      "Área": "60 m²",
+      "Piso": "Planta Baja",
+      "Servicios": "Incluye el servicio de agua",
+      "Anticipo": "1 mes"
+    },
+    "imagenes": [
+
+    ],
+    "video": "",
+    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d745.8980864806753!2d-79.9616058825554!3d-3.442836489184114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1752199786058!5m2!1ses!2sec"
+  }
+}
